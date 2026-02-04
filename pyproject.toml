@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wifi_recover"
+version = "0.1.0"
+description = "Secure Windows Wi-Fi profile recovery tool with explicit consent."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "typer>=0.9.0",
+    "cryptography>=41.0.0",
+]
+
+[project.scripts]
+wifi_recover = "wifi_recover.cli:app"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

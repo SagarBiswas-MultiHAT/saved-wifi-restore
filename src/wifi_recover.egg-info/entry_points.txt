@@ -1,0 +1,2 @@
+[console_scripts]
+wifi_recover = wifi_recover.cli:app
