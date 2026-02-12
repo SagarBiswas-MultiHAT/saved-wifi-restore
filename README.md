@@ -1,5 +1,17 @@
 # wifi_recover
 
+<div align="right">
+
+[![CI](https://github.com/SagarBiswas-MultiHAT/Saved-WiFi-Restore/actions/workflows/ci.yml/badge.svg)](https://github.com/SagarBiswas-MultiHAT/Saved-WiFi-Restore/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/SagarBiswas-MultiHAT/Saved-WiFi-Restore)
+[![License](https://img.shields.io/github/license/SagarBiswas-MultiHAT/Saved-WiFi-Restore)](https://github.com/SagarBiswas-MultiHAT/Saved-WiFi-Restore/blob/main/LICENSE)
+[![Tests](https://img.shields.io/badge/tests-pytest-brightgreen)](https://github.com/SagarBiswas-MultiHAT/Saved-WiFi-Restore/actions)
+[![Last commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/Saved-WiFi-Restore)](https://github.com/SagarBiswas-MultiHAT/Saved-WiFi-Restore)
+[![Issues](https://img.shields.io/github/issues/SagarBiswas-MultiHAT/Saved-WiFi-Restore)](https://github.com/SagarBiswas-MultiHAT/Saved-WiFi-Restore/issues)
+
+</div>
+
 **Recover your saved Windows Wi-Fi profiles with clear, auditable consent before any secret is shown.**
 
 `wifi_recover` is a Windows-only utility that wraps `netsh wlan` commands in a consent-first workflow so that you can enumerate saved profiles and (optionally) reveal their cleartext keys. It is built for administrators and desktop support engineers who need to recover credentials they already own, not for abuse.
